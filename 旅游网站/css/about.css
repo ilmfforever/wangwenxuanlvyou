@@ -1,0 +1,149 @@
+@import url('base.css');
+
+.lianxifangshi{
+	width: 100%;
+	height: 42px;
+	background: #ea9d20;
+}
+.lianxifangshi-left{
+	width: 375px;
+	height: 42px;
+	margin-left: 50px;
+	display: flex;
+    justify-content:space-between;
+}
+.lianxifangshi-left > li{
+	height: 100%;
+	line-height: 40px;
+}
+.lianxifangshi-left > li > span{
+    font-size: 12px;
+    color: #fff;
+}
+header{
+	width: 100%;
+	height: 174px;
+	overflow: hidden;
+	position: relative;
+}
+.header-left{
+	width: 220px;
+	height: 150px;
+	left: 50px;
+	top: 15px;
+	position: absolute;
+}
+.header-left > img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.header-right{
+	width: 770px;
+	height: 60px;
+	position: absolute;
+	right: 55px;
+	bottom: 36px;
+}
+.header-right ul{
+	width: 770px;
+	height: 60px;
+	display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+}
+.texiao{
+	margin-top: 30px;
+	border-bottom:5px solid #ea9d20;
+	opacity: 0;
+}
+
+.header-right a{
+	color: #ea9d20;
+	font-weight: bold;
+}
+.pinpaijiazhi{
+	width: 100%;
+	height: 540px;
+}
+.pinpaijiazhi-top{
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 24px;
+	font-weight: bold;
+	font-style: normal;
+    color: #dd9933;
+}
+.pinpaijiazhi-bottom1{
+	width: 30%;
+	margin-left: 230px;
+	margin-top: 30px;
+	float: left;
+}
+.pinpaijiazhi-bottom1 > div {
+	width: 100%;
+	font-size: 14px;
+	line-height: normal;
+	color: #696969;
+}
+.pinpaijiazhi-bottom2{
+	width: 400px;
+	height: 280px;
+	margin-right: 200px;
+	margin-top: 30px;
+	float: right;
+}
+.pinpaijiazhi-bottom2 > img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+footer{
+	width: 100%;
+	height: 197px;
+	padding-top: 30px;
+	background: #eaeaea;
+}
+.footerhezi{
+	width: 1024px;
+	height: 187px;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-between;
+}
+.footerhezi > li{
+	width:30%;
+	height: 100%;
+	text-align: center;
+	font-size: 18px;
+
+}
+.footer1 > div{
+	width: 100%;
+	height: 21px;
+}
+.footer1-1{
+	font-size: 16px;
+	color: #000;
+}
+.footer1-2{
+	font-size: 14px;
+	color: rgb(128, 128, 128);
+}
+.jiewei{
+	width: 100%;
+	height: 42px;
+	background:#eaeaea; 
+}
+.jiewei1{
+	width: 100%;
+	height: 21px;
+	text-align: center;
+	line-height: 21px;
+	font-size: 14px;
+	color: rgb(128, 128, 128);
+}
+
+
